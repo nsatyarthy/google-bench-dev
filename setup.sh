@@ -3,3 +3,5 @@ git clone https://github.com/google/googletest.git benchmark/googletest
 mkdir build && cd build
 cmake ../benchmark
 make
+make test
+sudo make install
